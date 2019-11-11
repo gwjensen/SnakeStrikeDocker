@@ -1,0 +1,13 @@
+[submodule "Libraries/openMVG-1.3/src/openMVG/src/dependencies/cereal"]
+	path = Libraries/openMVG-1.3/src/openMVG/src/dependencies/cereal
+	url = https://github.com/openMVG-thirdparty/cereal.git
+[submodule "Libraries/openMVG-1.3/src/openMVG/src/dependencies/glfw"]
+	path = Libraries/openMVG-1.3/src/openMVG/src/dependencies/glfw
+	url = https://github.com/elmindreda/glfw.git
+[submodule "Libraries/openMVG-1.3/src/openMVG/src/dependencies/osi_clp"]
+	path = Libraries/openMVG-1.3/src/openMVG/src/dependencies/osi_clp
+	url = https://github.com/openMVG-thirdparty/osi_clp.git
+[submodule "Libraries/LabJackPython"]
+	path = Libraries/LabJackPython
+	url = https://github.com/labjack/LabJackPython.git
+	branch = master

@@ -1,4 +1,4 @@
-# Grady-TrackingOpenSource-docker
+# SnakeStrikeDocker
 The build environment needed to create a docker image for the tracking code located in [SnakeStrike](https://github.com/gwjensen/SnakeStrike)
 
 It includes all of the libraries that are needed. It also includes init files for these libraries so that they are built correctly and in the right order. The docker image is a multi-stage build to reduce the size of the final docker image. Since this was done without docker build-kit, you will need to manually delete one intermediate build step after the docker build completes. You will know which one it is as it will have "None" as a name.
@@ -21,13 +21,15 @@ It includes all of the libraries that are needed. It also includes init files fo
 2. Download this repository 
 ```bash
 git clone https://github.com/gwjensen/SnakeStrikeDocker.git
+
 ``` 
 3. Initiate all submodules
 ```bash
 cd SnakeStrikeDocker
 git submodule update --init
 git submodule update
-``
+
+```
 
 4. Build the docker image manually
 

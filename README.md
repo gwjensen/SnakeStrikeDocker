@@ -21,13 +21,15 @@ It includes all of the libraries that are needed. It also includes init files fo
 2. Download this repository 
 ```bash
 git clone https://github.com/gwjensen/SnakeStrikeDocker.git
+
 ``` 
 3. Initiate all submodules
 ```bash
 cd SnakeStrikeDocker
 git submodule update --init
 git submodule update
-``
+
+```
 
 4. Build the docker image manually
 

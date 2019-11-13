@@ -5,7 +5,7 @@ It includes all of the libraries that are needed. It also includes init files fo
 
 ## Requirements
 
-1. Linux - We don't support windows
+1. 64 bit Linux - We don't support windows or 32 bit Linux.
 2. Docker 
 3. 70 GB free space ( if building manually )
    - This much space is needed as this docker build has very specific code dependencies. As such, these dependencies are hidden by building the dependencies from code stored in this repository. These means there are lots of build files that get generated. The docker build is set up as a multi-stage build, so the final image is as small as possible. That being said, the final image is still ~
